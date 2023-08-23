@@ -25,3 +25,5 @@ archive.zip
 *~
 .*.sw?
 .cache
+*.db
+alembic.ini
