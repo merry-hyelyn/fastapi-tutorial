@@ -10,7 +10,7 @@ from sqlalchemy.orm import sessionmaker
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./myapi.db"
 engine = create_engine(
-    SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thred": False}
+    SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
 )
 # create_enging 은 데이터 베이스 컨넥션 풀 생성, 커네션 풀이란, 정해진 데이터베이스에 접속하는 객체를 일정 개수만틈 만들어 놓고 돌려가며 사용하는 것.
 
