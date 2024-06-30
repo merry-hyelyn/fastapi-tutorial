@@ -27,3 +27,6 @@ archive.zip
 .cache
 *.db
 alembic.ini
+
+.editorconfig
+frontend/.env
